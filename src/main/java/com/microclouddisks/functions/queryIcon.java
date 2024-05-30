@@ -4,23 +4,23 @@ public class queryIcon {
 
     public String iconQuery(String filetype) {
 
-        if (filetype.equals("txt")) {
+        if ("txt".equals(filetype)) {
             return "img/txt.jpg";
-        } else if (filetype.equals("jpg") || filetype.equals("png") || filetype.equals("gif")) {
+        } else if ("jpg".equals(filetype) || "png".equals(filetype) || "gif".equals(filetype)) {
             return "img/image.jpg";
-        } else if (filetype.equals("zip") || filetype.equals("rar")) {
+        } else if ("zip".equals(filetype) || "rar".equals(filetype)) {
             return "img/zip.jpg";
-        } else if (filetype.equals("doc") || filetype.equals("docx")) {
+        } else if ("doc".equals(filetype) || "docx".equals(filetype)) {
             return "img/word.jpg";
-        } else if (filetype.equals("pdf")) {
+        } else if ("pdf".equals(filetype)) {
             return "img/pdf.jpg";
-        } else if (filetype.equals("ppt") || filetype.equals("pptx")) {
+        } else if ("ppt".equals(filetype) || "pptx".equals(filetype)) {
             return "img/ppt.jpg";
-        } else if (filetype.equals("mp3") || filetype.equals("flac") || filetype.equals("wav")) {
+        } else if ("mp3".equals(filetype) || "flac".equals(filetype) || "wav".equals(filetype)) {
             return "img/music.jpg";
-        } else if (filetype.equals("xlsx")) {
+        } else if ("xlsx".equals(filetype)) {
             return "img/excel.jpg";
-        } else if (filetype.equals("mp4") || filetype.equals("avi") || filetype.equals("wmv")) {
+        } else if ("mp4".equals(filetype) || "avi".equals(filetype) || "wmv".equals(filetype)) {
             return "img/video.jpg";
         } else {
             return "img/otherfiles.jpg";
